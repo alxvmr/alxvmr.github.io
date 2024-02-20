@@ -27,13 +27,13 @@
 <p>
 {% if page.lang == "ru" %}
 Исходные тексты содержащихся в этих образах свободных программ можно получить в 
-<a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/branch/files/SRPMS/"><b>src.rpm-пакетах</b></a>
+<a href={{ branch | prepend: "http://ftp.altlinux.org/pub/distributions/ALTLinux/" | append: "/branch/files/SRPMS/"}}><b>src.rpm-пакетах</b></a>
 и из <a href="http://git.altlinux.org/"><b>git</b></a>-репозиториев.
 {% endif %}
 
 {% if page.lang == "en" %}
-Sources for the free software contained in these images can be acquired as 
-<a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/branch/files/SRPMS/"><b>src.rpm packages</b></a>
+Sources for the free software contained in these images can be acquired as
+<a href={{ branch | prepend: "http://ftp.altlinux.org/pub/distributions/ALTLinux/" | append: "/branch/files/SRPMS/"}}><b>src.rpm packages</b></a>
 as well as <a href="http://git.altlinux.org/"><b>git</b></a> repos.
 
 {% endif %}
