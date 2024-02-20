@@ -59,6 +59,10 @@ txt_secondary_links:
   ru: Дополнительные загрузки
   en: Additional downloads
 
+txt_legacy_links:
+  ru: Образы для платформ с истекшим сроком поддержки
+  en: Images for platforms with expired support period
+
 txt_platform:
   ru: Платформа
   en: Platform

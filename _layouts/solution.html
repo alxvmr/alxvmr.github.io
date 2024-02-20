@@ -37,6 +37,7 @@ layout: default
                   {% assign main_links = image_list | where: "solution", page.code | where: "status", "release" | where_exp:"item","item.importance == 1"  %}
                   {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch == 'i586'" | sort: "platform" %}
                   {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch != 'i586'" | sort: "platform" %}
+                  {% assign legacy_links = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "legacy" | where_exp:"i","i.arch != 'i586'" | sort: "platform" %}
 
                   {% assign links_class = "links0" %}
                   {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}
@@ -50,19 +51,28 @@ layout: default
                     {% endfor %}
                     </ul>
                   </div>
-                  {% if secondary_links2.size > 0  or secondary_links2.size > 0%}
-                  <div class="links1">
-                    <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
-                    <ul>
-
-                    {% for loc in secondary_links1 %}
-                      {% include solution/links.html %}
-                    {% endfor %}
-                    {% for loc in secondary_links2 %}
-                      {% include solution/links.html %}
-                    {% endfor %}
-                    </ul>
-                  </div>
+                  {% if secondary_links2.size > 0  or secondary_links2.size > 0 or legacy_links.size > 0%}
+                    <div class="links1">
+                      {% if secondary_links2.size > 0%}
+                        <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
+                        <ul>
+                          {% for loc in secondary_links1 %}
+                            {% include solution/links.html %}
+                          {% endfor %}
+                          {% for loc in secondary_links2 %}
+                            {% include solution/links.html %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                      {% if legacy_links.size > 0 %}
+                        <h2>{{ site.txt_legacy_links[page.lang] }}</h2>
+                        <ul>
+                          {% for loc in legacy_links %}
+                            {% include solution/links.html %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </div>
                   {% endif %}
                   {% endif %}
               </div>
