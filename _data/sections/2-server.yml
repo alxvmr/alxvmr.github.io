@@ -31,7 +31,7 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
+     <a href="https://git.altlinux.org/gears/d/distro-licenses.git?p=distro-licenses.git;a=blob;f=ALT_Server_License/license.ru.html.in;h=44b8d47472603266deb9dc9412514d3196bc5992;hb=3b5fdc497c10867c46d3d9c2f6a6cfb34eeb41cb">лицензионный договор</a> в&nbsp;письменной форме.
      </a>
    descr_full_en: |
      <b>ALT Server 10</b> provides reliable foundation for enterprise IT infrastructure,
@@ -48,7 +48,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/license.all.html">license agreement</a>
+     <a href="https://git.altlinux.org/gears/d/distro-licenses.git?p=distro-licenses.git;a=blob;f=ALT_Server_License/license.all.html.in;h=9d6b441c460f5e801ecb56c42b757743134fb90e;hb=3b5fdc497c10867c46d3d9c2f6a6cfb34eeb41cb">license agreement</a>
      in written form.
    img: alt-server
 
