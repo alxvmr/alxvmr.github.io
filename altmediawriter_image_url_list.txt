@@ -1,6 +1,6 @@
-https://getalt.org/_data/images/p10-workstation.yml
-https://getalt.org/_data/images/p10-kworkstation.yml
-https://getalt.org/_data/images/p10-education.yml
-https://getalt.org/_data/images/p10-server.yml
-https://getalt.org/_data/images/p10-server-v.yml
-https://getalt.org/_data/images/p10-simply.yml
+https://alxvmr.github.io/_data/images/p10-workstation.yml
+https://alxvmr.github.io/_data/images/p10-kworkstation.yml
+https://alxvmr.github.io/_data/images/p10-education.yml
+https://alxvmr.github.io/_data/images/p10-server.yml
+https://alxvmr.github.io/_data/images/p10-server-v.yml
+https://alxvmr.github.io/_data/images/p10-simply.yml
