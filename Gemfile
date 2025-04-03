@@ -31,4 +31,5 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem 'jekyll-admin', group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 
-gem "rackup"
+gem "rack", "~> 3.0"
+gem "rackup", "~> 2.2.1" # + bundle update

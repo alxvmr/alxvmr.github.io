@@ -4,3 +4,15 @@ https://alxvmr.github.io/_data/images/p10-education.yml
 https://alxvmr.github.io/_data/images/p10-server.yml
 https://alxvmr.github.io/_data/images/p10-server-v.yml
 https://alxvmr.github.io/_data/images/p10-simply.yml
+https://alxvmr.github.io/_data/images/p9-workstation.yml
+https://alxvmr.github.io/_data/images/p9-kworkstation.yml
+https://alxvmr.github.io/_data/images/p9-education.yml
+https://alxvmr.github.io/_data/images/p9-server.yml
+https://alxvmr.github.io/_data/images/p9-server-v.yml
+https://alxvmr.github.io/_data/images/p9-simply.yml
+https://alxvmr.github.io/_data/images/p8-workstation.yml
+https://alxvmr.github.io/_data/images/p8-kworkstation.yml
+https://alxvmr.github.io/_data/images/p8-education.yml
+https://alxvmr.github.io/_data/images/p8-server.yml
+https://alxvmr.github.io/_data/images/p8-server-v.yml
+https://alxvmr.github.io/_data/images/p8-simply.yml
